@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: binance-tg-alert
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    plan: free
